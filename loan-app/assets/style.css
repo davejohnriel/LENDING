@@ -1,0 +1,33 @@
+/* Simple extras on top of Bootstrap */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+}
+.card {
+    border: none;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+}
+.stat-card {
+    border-left: 4px solid #0d6efd;
+}
+.stat-card.success { border-left-color: #198754; }
+.stat-card.warning { border-left-color: #ffc107; }
+.stat-card.danger  { border-left-color: #dc3545; }
+.table th {
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+.badge-status {
+    font-size: 0.75rem;
+    padding: 0.35em 0.65em;
+}
+.login-card {
+    max-width: 420px;
+    margin: 4rem auto;
+}
